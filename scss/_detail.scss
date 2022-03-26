@@ -1,0 +1,124 @@
+.detail-box {
+    display: flex;
+}
+.icon-share-2 {
+    position: sticky;
+    top: 20%;
+    border: 1px solid #EEF4ED;
+    box-shadow: 0px 0px 5px #d5d5d594;
+}
+.detail-icon-comment {
+    width: 3rem;
+    height: auto;
+    text-align: center;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail-content {
+    padding-left: 4rem;
+}
+.detail-content figure figcaption {
+    background: #f7f7f7;
+    text-align: center;
+    padding: 0.625rem 0.9375rem;
+    font-size: 1rem !important;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    line-height: 1.25rem;
+    font-family: "Lato", sans-serif;
+    color: #555;
+    margin-bottom: 1.25rem;
+}
+.detail-content p {
+    font-size: 17px;
+    font-family: "Noto Serif", serif;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+.detail-icon-share-line {
+    display: flex;
+    align-items: center;
+}
+.detail-fb-icon {
+    background: #3B5999;
+}
+.detail-icon-share__link {
+    height: 2.25rem;
+    width: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail-icon-share + .detail-icon-share {
+    margin-left: 0.625rem;
+}
+.detail-like-icon {
+    background: #087CCE;
+    width: 68px;
+}
+.detail-twitter-icon {
+    background: #55ACEE;
+}
+.detail-linker-icon {
+    background: #0073B1;
+}
+.detail-email-icon {
+    background: #E5E5E5;
+}
+.detail-tags {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.detail-tag-icon {
+    font-size: 14px;
+    background: #F2EFEA;
+    width: 80px;
+    height: 36px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.detail-tag-icon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 8px solid #F2EFEA;
+    right: -8px;
+    position: absolute;
+}
+.detail-tag + .detail-tag {
+    margin-left: 1.25rem;
+}
+.detail-tag-item {
+    font-weight: 700;
+    line-height: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #4F4F4F;
+    font-size: 15px;
+    position: relative;
+}
+.detail-tag-item:nth-child(2)::before {
+    content: "";
+}
+.detail-tag-item::before {
+    position: absolute;
+    content: "⁄";
+    color: #4f4f4f;
+    top: 50%;
+    left: -0.75rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}

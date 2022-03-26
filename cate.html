@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32"> -->
+    <title>Tình thương cuộc sống</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./jquery/jquery.js"></script>
+  </head>
+
+  <body>
+    <!-- banner -->
+    <section class="banner-top">
+      <a href="#">
+        <img src="./images/banner_top_pc.jpg" alt="">
+      </a>
+    </section>
+    <!-- end banner -->
+    <!-- top header -->
+    <section class="top-header-wrapper font-secondary">
+      <div class="top-header fs-14 w-1140 d-flex align-items-center justify-content-between">
+        <!-- time -->
+        <div class="top-header__time d-lg-block d-none">Thứ 3, 15/2/2022</div>
+        <!-- end time -->
+        <!-- phone -->
+        <div class="top-header__phone d-flex align-items-center">
+          <img src="./images/phone1.svg" alt="" class="mr-2">
+          <span>Hà Nội - <span class="fw-700">0123 123456678</span></span>&nbsp;&nbsp;&nbsp;
+          <span>TP HCM - <span class="fw-700">0123 123456678</span></span>
+        </div>
+        <!-- end phone -->
+      </div>
+    </section>
+    <!-- end top header -->
+    <!-- main header -->
+    <section class="nav-header-wrapper">
+      <div class="nav-header w-1140 d-flex align-items-center justify-content-between">
+        <div class="nav-header__left">
+          <div class="navbar-mb-item navbar-mb-item__bar show-submenu d-lg-none d-block mr-20">
+            <i class="fas fa-bars text-gray-99"></i>
+          </div>
+          <a href="#">
+            <img src="./images/logo.png" alt="" class="nav-header__logo">
+          </a>
+        </div>
+        <ul class="nav-header__right d-flex align-items-center">
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-fb">
+              <img src="./images/Facebook.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-block d-none">
+            <a href="#" class="nav-header__right-link nav-header__right-twitter">
+              <img src="./images/Twitter.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-block d-none">
+            <a href="#" class="nav-header__right-link nav-header__right-linker">
+              <img src="./images/Youtube.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-gg">
+              <img src="./images/User.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-none d-block">
+            <a href="#" class="nav-header__right-link show-submenu">
+              <img src="./images/search.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-search d-lg-block d-none">
+            <form action="">
+              <div class="position-relative nav-search-group">
+                <button class="btn btn-search text-gray-33">
+                  <img src="./images/search.svg" alt="">
+                </button>
+                <input type="text" class="fs-14 form-control-t form-search-pc position-absolute" placeholder="Tìm kiếm">
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- end main header -->
+    <!-- sub menu mb -->
+    <section class="sub-menu-mb-wrapper d-lg-none d-block">
+      <div class="sub-menu-mb">
+        <!-- close -->
+        <div class="close-sub-menu">
+          <i class="fas fa-times text-red-cc0 fs-24"></i>
+        </div>
+        <!-- end close -->
+        <!-- content -->
+        <ul class="sub-menu-mb-content">
+          <!--  -->
+          <li class="sub-menu-mb-item sub-menu-mb-item--search">
+            <div class="search-mb">
+              <form action="">
+                <div class="d-flex align-items-center position-relative">
+                  <input type="text" class="form-control-t form-search-mb fs-12" placeholder="Tìm kiếm...">
+                  <button class="btn-search-mb fs-14 text-gray-33"><i class="fas fa-search"></i></button>
+                </div>
+              </form>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item bg-gray-f9">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Trang nhất</a>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Đời sống</a>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Đời sống</a>
+            </div>
+          </li>
+        </ul>
+        <!-- end content -->
+      </div>
+    </section>
+    <!-- end sub menu mb -->
+    <!-- header -->
+    <header id="header">
+      <!-- navigation bar-->
+      <section class="navigation-bar-wrapper">
+        <div class="w-1140 navigation-bar">
+          <!-- pc -->
+          <ul class="navigation-bar-list d-lg-flex align-items-center d-none">
+            <li class="navigation-bar-item fs-16">
+              <a href="#"><i class="fas fa-home text-red-e7"></i></a>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title fw-600">
+                <a href="#" class="text-gray-33">Top News</a>
+              </div>
+              <ul class="navigation-bar-item__dropdown fs-12 bg-white shadown-1">
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title fw-600">
+                <a href="#" class="text-gray-33">Top News</a>
+              </div>
+              <ul class="navigation-bar-item__dropdown fs-12 bg-white shadown-1">
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end pc -->
+          <!-- mobile -->
+          <ul class="navigation-bar-list navigation-bar-list--mb d-lg-none d-block px-12 fw-600">
+            <li class="navigation-bar-item fs-16">
+              <a href="#"><i class="fas fa-home text-red-e7"></i></a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-gray-33">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-gray-33">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-gray-33">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-gray-33">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-gray-33">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-gray-33">Top News</a>
+            </li>
+          </ul>
+          <!-- end mobile -->
+        </div>
+      </section>
+      <!-- end navigation bar-->
+    </header>
+    <!-- end header -->
+    <!-- main -->
+    <main id="main" class="pt-20">
+        <ul class="categories-navbar w-1140 d-flex">
+            <li class="category-navbar active">
+                <a href="#" class="text-gray-33">Kinh tế</a>
+            </li>
+            <li class="category-navbar">
+                <a href="#" class="text-gray-33">Kinh tế số</a>
+            </li>
+            <li class="category-navbar">
+                <a href="#" class="text-gray-33">Đầu tư</a>
+            </li>
+            <li class="category-navbar">
+                <a href="#" class="text-gray-33">Tài chính - Ngân hàng</a>
+            </li>
+            <li class="category-navbar">
+                <a href="#" class="text-gray-33">Chứng khoán</a>
+            </li>
+        </ul>
+      <!-- row 2 -->
+      <section class="main-two w-1180 p-20">
+        <!-- left -->
+        <div class="main-two--left cate-left">
+            <!-- row 1 -->
+            <div class="cate-one">
+                <!-- left -->
+                <div class="cate-one--left">
+                    <!-- large -->
+                    <div class="main-one--center-large mb-20">
+                    <!-- img -->
+                    <div class="main-one--center-large__img">
+                        <div class="">
+                        <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- text -->
+                    <div class="main-one--center-large__text">
+                        <h3 class="main-one--center-large__title fs-24 fw-700 py-12">
+                        <a href="#" class="line-32">Amazon denies unfair seller policy as it aims to expand in Vietnam</a>
+                        </h3>
+                        <p class="main-one--center-large__public font-secondary fs-13 text-gray-82 line-15 pb-12"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h</p>
+                        <p class="main-one--center-large__des fs-15 line-22 text-gray-44 font-secondary">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+                    </div>
+                    <!-- end text -->
+                    </div>
+                    <!-- end large -->
+                    <!-- small -->
+                    <div class="main-one--center-small">
+                    <!-- thumb -->
+                    <div class="main-one--center-small-thumb">
+                        <!-- img -->
+                        <div class="main-one--right-thumb__img">
+                        <div class="">
+                            <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                                <img class="" src="./images/2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- end img -->
+                        <!-- text -->
+                        <div class="main-one--right-thumb__text">
+                        <h3 class="main-one--right-thumb__title fs-17 fw-700 py-12">
+                            <a href="#" class="line-22">Amazon denies unfair seller policy as it aims to expand in Vietnam</a>
+                        </h3>
+                        <p class="main-one--right-thumb__public font-secondary fs-13 text-gray-82 line-15 pb-12"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h</p>
+                        </div>
+                        <!-- end text -->
+                    </div>
+                    <!-- end thumb -->
+                    <!-- thumb -->
+                    <div class="main-one--center-small-thumb">
+                        <!-- img -->
+                        <div class="main-one--right-thumb__img">
+                        <div class="">
+                            <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                                <img class="" src="./images/2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- end img -->
+                        <!-- text -->
+                        <div class="main-one--right-thumb__text">
+                        <h3 class="main-one--right-thumb__title fs-17 fw-700 py-12">
+                            <a href="#" class="line-22">Amazon denies unfair seller policy as it aims to expand in Vietnam</a>
+                        </h3>
+                        <p class="main-one--right-thumb__public font-secondary fs-13 text-gray-82 line-15 pb-12"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h</p>
+                        </div>
+                        <!-- end text -->
+                    </div>
+                    <!-- end thumb -->
+                    </div>
+                    <!-- end small -->
+                </div>
+                <!-- end left -->
+                <!-- right -->
+                <div class="cate-one--right">
+                    <!-- thumb -->
+                    <div class="main-one--left-thumb">
+                    <!-- img -->
+                    <div class="main-one--left-thumb__img">
+                        <div class="">
+                        <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="main-one--left-thumb__content py-12">
+                        <h3 class="main-one--left-thumb__heading fs-17 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                        </h3>
+                        <p class="main-one--left-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-block d-none"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                    </div>
+                    <!-- end thumb -->
+                    <!-- thumb -->
+                    <div class="main-one--left-thumb">
+                    <!-- img -->
+                    <div class="main-one--left-thumb__img d-lg-none d-block">
+                        <div class="">
+                        <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="main-one--left-thumb__content py-12">
+                        <h3 class="main-one--left-thumb__heading fs-15 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                        </h3>
+                        <p class="main-one--left-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12  d-lg-block d-none"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                    </div>
+                    <!-- end thumb -->
+                    <!-- thumb -->
+                    <div class="main-one--left-thumb">
+                    <!-- img -->
+                    <div class="main-one--left-thumb__img d-lg-none d-block">
+                        <div class="">
+                        <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="main-one--left-thumb__content py-12">
+                        <h3 class="main-one--left-thumb__heading fs-15 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                        </h3>
+                        <p class="main-one--left-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-block d-none"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                    </div>
+                    <!-- end thumb -->
+                    <!-- thumb -->
+                    <div class="main-one--left-thumb">
+                    <!-- img -->
+                    <div class="main-one--left-thumb__img d-lg-none d-block">
+                        <div class="">
+                        <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="main-one--left-thumb__content py-12">
+                        <h3 class="main-one--left-thumb__heading fs-15 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                        </h3>
+                        <p class="main-one--left-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-block d-none"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                    </div>
+                    <!-- end thumb -->
+                    <!-- thumb -->
+                    <div class="main-one--left-thumb">
+                    <!-- img -->
+                    <div class="main-one--left-thumb__img d-lg-none d-block">
+                        <div class="">
+                        <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="main-one--left-thumb__content py-12">
+                        <h3 class="main-one--left-thumb__heading fs-15 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                        </h3>
+                        <p class="main-one--left-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-block d-none"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                    </div>
+                    <!-- end thumb -->
+                </div>
+                <!-- end right -->
+            </div>
+            <!-- end row 1 -->
+          <!-- articles -->
+          <div class="articles">
+            <!-- article -->
+            <div class="article py-20 d-flex w-100">
+              <!-- img -->
+              <div class="article-img">
+              <div class="">
+                  <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3">
+                      <img class="" src="./images/2.jpg" alt=""></a>
+                  </div>
+              </div>
+              </div>
+              <!-- end img -->
+              <!-- content -->
+              <div class="article-content pl-15">
+              <h3 class="article__heading fs-20 fw-700">
+                  <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+              </h3>
+              <p class="article__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+              <p class="article__public font-secondary fs-13 text-gray-82 line-15 d-lg-block d-none"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h </p>
+              </div>
+              <!-- end content -->
+            </div>
+            <!-- end article -->
+            <!-- article -->
+            <div class="article py-20 d-flex w-100">
+              <!-- img -->
+              <div class="article-img">
+              <div class="">
+                  <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3">
+                      <img class="" src="./images/2.jpg" alt=""></a>
+                  </div>
+              </div>
+              </div>
+              <!-- end img -->
+              <!-- content -->
+              <div class="article-content pl-15">
+              <h3 class="article__heading fs-20 fw-700">
+                  <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+              </h3>
+              <p class="article__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+              <p class="article__public font-secondary fs-13 text-gray-82 line-15 d-lg-block d-none"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h </p>
+              </div>
+              <!-- end content -->
+            </div>
+            <!-- end article -->
+            <!-- article -->
+            <div class="article py-20 d-flex w-100">
+              <!-- img -->
+              <div class="article-img">
+              <div class="">
+                  <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3">
+                      <img class="" src="./images/2.jpg" alt=""></a>
+                  </div>
+              </div>
+              </div>
+              <!-- end img -->
+              <!-- content -->
+              <div class="article-content pl-15">
+              <h3 class="article__heading fs-20 fw-700">
+                  <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+              </h3>
+              <p class="article__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+              <p class="article__public font-secondary fs-13 text-gray-82 line-15 d-lg-block d-none"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h </p>
+              </div>
+              <!-- end content -->
+            </div>
+            <!-- end article -->
+            <!-- article -->
+            <div class="article py-20 d-flex w-100">
+              <!-- img -->
+              <div class="article-img">
+              <div class="">
+                  <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3">
+                      <img class="" src="./images/2.jpg" alt=""></a>
+                  </div>
+              </div>
+              </div>
+              <!-- end img -->
+              <!-- content -->
+              <div class="article-content pl-15">
+              <h3 class="article__heading fs-20 fw-700">
+                  <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+              </h3>
+              <p class="article__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+              <p class="article__public font-secondary fs-13 text-gray-82 line-15 d-lg-block d-none"><span class="fw-700 text-gray-66">Tiêu điểm</span> - 7h </p>
+              </div>
+              <!-- end content -->
+            </div>
+            <!-- end article -->
+          </div>
+          <!-- end articles -->
+          <!-- pagination -->
+          <ul class="pagination font-primary fw-600 pb-5 pt-4 d-lg-flex d-none">
+              <li class="pagi-item active">
+                  <a href="#" class="pagi-link">01</a>
+              </li>
+              <li class="pagi-item">
+                  <a href="#" class="pagi-link">02</a>
+              </li>
+              <li class="pagi-item">
+                  <a href="#" class="pagi-link">03</a>
+              </li>
+              <li class="pagi-item">
+                  <a href="#" class="pagi-link">04</a>
+              </li>
+              <li class="pagi-item">
+                  <a href="#" class="pagi-link">05</a>
+              </li>
+          </ul>
+          <!-- end pagination -->
+          <!-- see more -->
+          <button class="btn bg-blue-28 fs-14 mx-auto d-lg-none d-block my-3">Xem thêm</button>
+          <!-- end see more -->
+        </div>
+        <!-- end left -->
+        <!-- right -->
+        <div class="main-two--right">
+          <!-- banner -->
+          <div class="banner-right d-lg-block d-none">
+            <img src="./images/newspaper-rec300@2x.jpg" alt="">
+          </div>
+          <!-- end banner -->
+        </div>
+        <!-- end right -->
+      </section>
+      <!-- end row 2 -->
+      <!-- banner qc -->
+      <div class="bg-f6 d-flex justify-content-center py-10">
+        <div class="w-1140">
+          <a href="#"><img src="./images/sunshine-0.png" alt="" class=""></a>
+        </div>
+      </div>
+      <!-- end banner qc -->
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer id="footer" class="bg-f6 footer">
+      <!-- back top -->
+      <div id="back-top"><i class="fas fa-arrow-up text-white"></i></div>
+      <!-- end back top -->
+      <!-- footer top -->
+      <section class="footer-top w-1140">
+        <!-- left -->
+        <div class="footer-top__left">
+          <!-- logo -->
+          <div class="footer-logo">
+            <a href="#" class="">
+              <img src="./images/logo.png" alt="" class="nav-header__logo">
+            </a>
+          </div>
+          <!-- end logo -->
+          <!-- text -->
+          <div class="footer-top__left-text text-gray-33 fs-14 font-secondary d-lg-block d-none">
+            <p class="line-26"><span class="fw-700">© Bản quyền 2022 Tình Thương & Cuộc Sống</span></p>
+            <p class="line-26">Cơ quan báo chí của Hội Cứu trợ trẻ em tàn tật Việt Nam</p>
+            <p class="line-26">Chịu trách nhiệm nội dung: Tổng Biên tập Vũ Chương</p>
+            <p class="line-26">Số giấy phép: 01/GP-TTĐT do Bộ Thông tin và Truyền thông cấp ngày 01/01/2022</p>
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end left -->
+        <!-- right -->
+        <div class="footer-top__right font-secondary">
+          <!-- phone pc-->
+          <div class="top-header__phone d-lg-flex align-items-center justify-content-end d-none">
+            <img src="./images/phone1.svg" alt="" class="mr-2">
+            <span>Hà Nội - <span class="fw-700">0123 123456678</span></span>&nbsp;&nbsp;&nbsp;
+            <span>TP HCM - <span class="fw-700">0123 123456678</span></span>
+          </div>
+          <!-- end phone pc-->
+          <!-- phone mb-->
+          <div class="top-header__phone d-lg-none align-items-center justify-content-center d-flex mt-2">
+            <img src="./images/phone1.svg" alt="" class="mr-3">
+            <div>
+              <span>Hà Nội - <span class="fw-700 d-inline-flex mb-2">0123 123456678</span></span><br>
+              <span>TP HCM - <span class="fw-700">0123 123456678</span></span>
+            </div>
+          </div>
+          <!-- end phone mb-->
+          <!--  -->
+          <ul class="nav-header__right d-flex align-items-center justify-content-lg-end justify-content-center mt-20">
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-fb">
+                <img src="./images/Facebook.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-twitter">
+                <img src="./images/Twitter.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-linker">
+                <img src="./images/Youtube.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-gg">
+                <img src="./images/User.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item pl-20 d-lg-block d-none">
+              <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Liên hệ quảng cáo</a>
+              <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Thông tin tòa soạn</a>
+            </li>
+          </ul>
+          <div class="my-20 d-lg-none d-flex align-items-center justify-content-center">
+            <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Liên hệ quảng cáo</a>
+              <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Thông tin tòa soạn</a>
+          </div>
+          <!-- text -->
+          <div class="footer-top__left-text text-gray-33 fs-14 font-secondary d-lg-none d-block">
+            <p class="line-26"><span class="fw-700">© Bản quyền 2022 Tình Thương & Cuộc Sống</span></p>
+            <p class="line-26">Cơ quan báo chí của Hội Cứu trợ trẻ em tàn tật Việt Nam</p>
+            <p class="line-26">Chịu trách nhiệm nội dung: Tổng Biên tập Vũ Chương</p>
+            <p class="line-26">Số giấy phép: 01/GP-TTĐT do Bộ Thông tin và Truyền thông cấp ngày 01/01/2022</p>
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end right -->
+      </section>
+      <!-- end footer top -->
+      <!-- footer bootom -->
+      <section class="footer-bottom bg-blue-28 py-3">
+        <div class="w-1140 text-lg-center text-gray-fc fs-14 font-secondary p-lg-0 px-15">
+          <p class="line-22">Địa chỉ: Hà Nội, Việt Nam  </p>
+          <p class="line-22">Email: tinhthuongcuocsong@gmail.com</p>
+          <p class="line-22">Ghi rõ nguồn "Tình thương & Cuộc sống" khi phát hành lại thông tin từ website này</p>
+        </div>
+      </section>
+      <!-- end footer bootom -->
+    </footer>
+    <!-- end footer -->
+    <script src="./slick/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./slick/slick-1.8.1/slick/slick.js"></script>
+    <script src="./font-awesome/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+    <script src="./js/ResizeSensor.js"></script>
+    <script src="./js/theia-sticky-sidebar.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
