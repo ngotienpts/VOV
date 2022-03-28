@@ -71,6 +71,20 @@ document.addEventListener("DOMContentLoaded", function () {
         arrows: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 1.5,
+            },
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 1.5,
+            },
+          },
+        ],
       });
     },
     // slide event
@@ -117,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // window scroll
       this.windowScroll();
       // slide navbar mb
-      this.slideNavbarMb();
+      // this.slideNavbarMb();
       // slide mutimedia
       this.slideMutimedia();
       // slide event

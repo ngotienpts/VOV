@@ -381,3 +381,10 @@
   border-top: none;
   padding-top: 0;
 }
+.push-minus {
+  transform: translateY(16px);
+  -webkit-transform: translateY(16px);
+  -moz-transform: translateY(16px);
+  -ms-transform: translateY(16px);
+  -o-transform: translateY(16px);
+}

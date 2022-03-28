@@ -12,6 +12,10 @@
     display: flex;
   }
 
+  .text-left {
+    text-align: left;
+  }
+
   #main {
     padding-top: 0;
   }
@@ -42,13 +46,18 @@
   }
 
   .navigation-bar-item + .navigation-bar-item {
-    margin-left: 0;
+    margin-left: 1.25rem;
   }
 
   .nav-header__logo {
     height: 50px;
     width: auto;
     margin: auto;
+  }
+
+  .nav-header__logo--footer {
+    height: 100px;
+    max-height: 100px;
   }
 
   .nav-header__left {
@@ -71,10 +80,6 @@
 
   .navigation-bar {
     padding: 0.75rem 0;
-  }
-
-  .navigation-bar-list--mb {
-    max-width: 600px;
   }
 
   .navigation-bar-list--mb .slick-slide + .slick-slide {
@@ -144,7 +149,6 @@
 .main-one--right,
 .main-one--left,
 .articles,
-.mutimedia-container--large__text,
 .most-view-container,
 .main-three--small,
 .footer-top__left-text {
@@ -215,15 +219,6 @@
     padding: 0;
   }
 
-  .mutimedia-cate {
-    transform: translate(15px, -10px);
-    -webkit-transform: translate(15px, -10px);
-    -moz-transform: translate(15px, -10px);
-    -ms-transform: translate(15px, -10px);
-    -o-transform: translate(15px, -10px);
-    display: inline-block;
-  }
-
   .mutimedia-header {
     padding: 0 0.9375rem;
     flex-wrap: nowrap;
@@ -285,6 +280,160 @@
     width: 35%;
   }
 
+  .mutimedia-container--large__title {
+    font-size: 1.25rem;
+  }
+
+  .podcast {
+    padding: 0 0.9375rem;
+  }
+
+  .podcast--right__heading {
+    font-size: 0.9375rem;
+  }
+
+  /*============================================================================*/
+  .main-top,
+.main-left-row-one,
+.main-left-row-two,
+.podcast,
+.travel-life__left--item:nth-child(2) .top-new__large--img {
+    display: block;
+  }
+
+  .main-left-row-two {
+    border-top: none;
+    padding: 0 0.9375rem 1.5rem 0.9375rem;
+  }
+
+  .main-top {
+    margin-top: 0;
+  }
+
+  .main-left-row-one {
+    padding-bottom: 0;
+  }
+
+  .row-one-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 1.25rem 0.9375rem;
+  }
+
+  .row-one-thumb {
+    padding-top: 0;
+  }
+
+  .row-one-thumb .row-one-thumb__content {
+    border-bottom: none;
+  }
+
+  .main-left-row-three-thumb.small {
+    display: flex;
+    width: 100%;
+    padding: 0.9375rem 0;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .main-left-row-three-thumb__img {
+    width: 35%;
+    flex-shrink: 0;
+  }
+
+  .main-left-row-three-thumb__content {
+    padding: 0 0 0 0.75rem;
+  }
+
+  .main-left-row-three-thumb__heading {
+    font-size: 0.9375rem;
+  }
+
+  .event-block {
+    margin-top: 1.875rem;
+    padding: 0 0.9375rem;
+  }
+
+  .podcast__icon {
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+  }
+
+  .travel-life__content {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-life__center {
+    order: 1;
+    padding: 0;
+  }
+
+  .travel-life__left {
+    order: 2;
+  }
+
+  .travel-life__right {
+    order: 3;
+    display: none;
+  }
+
+  .news .header-block {
+    margin: 0 0.9375rem;
+  }
+
+  .main-three__item .header-block {
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+
+  .top-new__large--des {
+    display: none;
+  }
+
+  .top-new__large--title,
+.travel-life__left {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  .top-new__large--title {
+    font-size: 1.25rem;
+  }
+
+  .travel-life__left--item {
+    display: flex;
+    width: 100%;
+    padding: 0.75rem 0;
+  }
+
+  .travel-life__left--item .top-new__large--img {
+    width: 35%;
+    flex-shrink: 0;
+  }
+
+  .travel-life__left--item .top-new__large--title {
+    flex: 1;
+    font-size: 0.9375rem;
+    padding: 0 0 0 0.75rem;
+  }
+
+  .podcast--right__content {
+    padding-left: 0.75rem;
+  }
+
+  .main-three--small__heading {
+    padding-left: 0.75rem;
+  }
+
+  .podcast--right__img {
+    width: 35%;
+  }
+
+  .nav-header__right {
+    justify-content: center;
+  }
+
   /*============================================================================     cate*/
   .cate-one {
     display: block;
@@ -339,6 +488,19 @@
     line-height: 0;
   }
 
+  .cate-row-two {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .cate-left-row-two {
+    padding-bottom: 0;
+  }
+
+  .cate-row-two .article:first-child {
+    border-top: 1px solid #e5e5e5;
+  }
+
   .detail-content {
     padding: 1.25rem 0.9375rem 1rem;
   }
@@ -348,6 +510,30 @@
     overflow-x: auto;
     flex-wrap: nowrap;
     white-space: nowrap;
+  }
+
+  .detail-icon-share-line {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  .related-news-detail .header-block,
+.care-detail .header-block {
+    margin: 0 0.9375rem;
+  }
+
+  .related-news-detail-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.875rem 0.625rem;
+  }
+
+  .related-news-detail-content .row-two-item__heading {
+    font-size: 1rem;
+  }
+
+  .care-detail {
+    padding-top: 0;
   }
 }
 
