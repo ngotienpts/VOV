@@ -447,12 +447,8 @@ img {
 }
 
 /*=================================================================*/
-.bg-blue-28 {
-  background-color: #284fa7;
-}
-
-.bg-blue-15 {
-  background-color: #152764;
+.bg-blue-00 {
+  background-color: #001749;
 }
 
 .bg-blue-03 {
@@ -461,6 +457,14 @@ img {
 
 .bg-blue-08 {
   background-color: #0860A8;
+}
+
+.bg-blue-15 {
+  background-color: #152764;
+}
+
+.bg-blue-28 {
+  background-color: #284fa7;
 }
 
 .bg-fffe {

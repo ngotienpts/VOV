@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32"> -->
+    <title>VOV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./jquery/jquery.js"></script>
+  </head>
+
+  <body>
+    <!-- banner -->
+    <section class="banner-top">
+      <a href="#">
+        <img src="./images/banner_top_pc.jpg" alt="">
+      </a>
+    </section>
+    <!-- end banner -->
+    <!-- top header -->
+    <section class="top-header-wrapper font-secondary">
+      <div class="top-header fs-14 w-1140 d-flex align-items-center justify-content-between">
+        <!-- phone -->
+        <div class="top-header__phone d-flex align-items-center">
+          <img src="./images/phone1.svg" alt="" class="mr-2">
+          <div class="d-lg-flex d-none">
+            <span>Hà Nội - <span class="fw-700">0123 123456678</span></span>&nbsp;&nbsp;&nbsp;
+            <span>TP HCM - <span class="fw-700">0123 123456678</span></span>&nbsp;&nbsp;&nbsp;
+            <span>MekongFM - <span class="fw-700">0123 123456678</span></span>
+          </div>
+          <div class="d-lg-none d-block">
+            <span>Hà Nội - <span class="fw-700">0123 123456678</span></span><br>
+            <span>TP HCM - <span class="fw-700">0123 123456678</span></span><br>
+            <span>MekongFM - <span class="fw-700">0123 123456678</span></span>
+          </div>
+        </div>
+        <!-- end phone -->
+        <!-- time -->
+        <div class="top-header__time d-lg-block d-none">Thứ 3, 15/2/2022</div>
+        <!-- end time -->
+        <!-- social top header mb -->
+        <ul class="nav-header__right d-lg-none align-items-center d-flex pr-15">
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-fb">
+              <img src="./images/Facebook.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-twitter">
+              <img src="./images/Twitter.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-linker">
+              <img src="./images/Youtube.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+        </ul>
+        <!-- end social top header mb -->
+      </div>
+    </section>
+    <!-- end top header -->
+    <!-- main header -->
+    <section class="nav-header-wrapper">
+      <div class="nav-header w-1140 d-flex align-items-center justify-content-between">
+        <!-- social -->
+        <ul class="nav-header__right d-lg-flex align-items-center d-none">
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-fb">
+              <img src="./images/Facebook.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-block d-none">
+            <a href="#" class="nav-header__right-link nav-header__right-twitter">
+              <img src="./images/Twitter.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-block d-none">
+            <a href="#" class="nav-header__right-link nav-header__right-linker">
+              <img src="./images/Youtube.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-gg">
+              <img src="./images/User.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+        </ul>
+        <!-- end social -->
+        <!-- bar -->
+        <div class="navbar-mb-item navbar-mb-item__bar show-submenu d-lg-none d-block mr-20">
+          <i class="fas fa-th text-blue-28 fs-20"></i>
+        </div>
+        <!-- end bar -->
+        <div class="nav-header__left">
+          <a href="#">
+            <img src="./images/logo.png" alt="" class="nav-header__logo">
+          </a>
+        </div>
+        <ul class="nav-header__right d-flex align-items-center">
+          <li class="nav-header__right-item d-lg-none d-block">
+            <a href="#" class="nav-header__right-link nav-header__right-gg">
+              <img src="./images/User.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-none d-block">
+            <a href="#" class="nav-header__right-link show-submenu">
+              <img src="./images/search.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-search d-lg-block d-none">
+            <form action="">
+              <div class="position-relative nav-search-group">
+                <button class="btn btn-search text-gray-33">
+                  <img src="./images/search.svg" alt="">
+                </button>
+                <input type="text" class="fs-14 form-control-t form-search-pc position-absolute" placeholder="Tìm kiếm">
+              </div>
+            </form>
+          </li>
+          <li class="nav-header__right-login d-lg-flex d-none fs-14 ml-2">
+            <img src="./images/user_1.png" alt="">
+            Đăng nhập
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- end main header -->
+    <!-- sub menu mb -->
+    <section class="sub-menu-mb-wrapper d-lg-none d-block">
+      <div class="sub-menu-mb">
+        <!-- close -->
+        <div class="close-sub-menu">
+          <i class="fas fa-times text-red-cc0 fs-24"></i>
+        </div>
+        <!-- end close -->
+        <!-- content -->
+        <ul class="sub-menu-mb-content">
+          <!--  -->
+          <li class="sub-menu-mb-item sub-menu-mb-item--search">
+            <div class="search-mb">
+              <form action="">
+                <div class="d-flex align-items-center position-relative">
+                  <input type="text" class="form-control-t form-search-mb fs-12" placeholder="Tìm kiếm...">
+                  <button class="btn-search-mb fs-14 text-gray-33"><i class="fas fa-search"></i></button>
+                </div>
+              </form>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item bg-gray-f9">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Trang nhất</a>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Đời sống</a>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Đời sống</a>
+            </div>
+          </li>
+        </ul>
+        <!-- end content -->
+      </div>
+    </section>
+    <!-- end sub menu mb -->
+    <!-- header -->
+    <header id="header">
+      <!-- navigation bar-->
+      <section class="navigation-bar-wrapper">
+        <div class="w-1140 navigation-bar">
+          <!-- pc -->
+          <ul class="navigation-bar-list d-lg-flex align-items-center d-none">
+            <li class="navigation-bar-item fs-16">
+              <a href="#"><i class="fas fa-home text-red-e7"></i></a>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title fw-600">
+                <i class="fas fa-th text-blue-28 fs-20"></i>
+              </div>
+              <ul class="navigation-bar-item__dropdown fs-12 bg-white shadown-1">
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title ">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Hà Nội</span>
+                </a>
+              </div>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title ">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  span>TP HCM</span>
+                </a>
+              </div>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title ">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Mekong</span>
+                </a>
+              </div>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title ">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Duyên Hải</span>
+                </a>
+              </div>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title ">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Chương trình đã phát sóng</span>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <!-- end pc -->
+          <!-- mobile -->
+          <div class="navigation-bar-list navigation-bar-list--mb d-lg-none d-block px-12 fw-600">
+            <ul class="d-flex mb-10 justify-content-center">
+              <li class="navigation-bar-item">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Hà Nội</span>
+                </a>
+              </li>
+              <li class="navigation-bar-item">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>TP HCM</span>
+                </a>
+              </li>
+              <li class="navigation-bar-item">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Mekong</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="d-flex justify-content-center">
+              <li class="navigation-bar-item">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Duyên hải</span>
+                </a>
+              </li>
+              <li class="navigation-bar-item">
+                <a href="#" class="text-gray-33 d-flex align-items-center fs-14">
+                  <img src="./images/icon_play.png" alt="" class="mr-2">
+                  <span>Chương trình đã phát sóng</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end mobile -->
+        </div>
+      </section>
+      <!-- end navigation bar-->
+    </header>
+    <!-- end header -->
+    <!-- main -->
+    <main id="main" class="pt-20">
+      <ul class="categories-navbar w-1140 d-flex">
+        <li class="category-navbar active">
+            <a href="#" class="text-gray-33">Podcast</a>
+        </li>
+      </ul>
+      <!-- row 1 -->
+      <section class="podcast-primary bg-blue-00">
+        <div class="w-1140 podcast-primary">h</div>
+      </section>
+      <!-- end row 1 -->
+      <!-- row 2 -->
+      <section class="podcast-secondary">test</section>
+      <!-- end row 2 -->
+      <!-- banner qc -->
+      <div class="bg-f6 d-flex justify-content-center py-10">
+        <div class="w-1140">
+          <a href="#"><img src="./images/sunshine-0.png" alt="" class=""></a>
+        </div>
+      </div>
+      <!-- end banner qc -->
+      
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer id="footer" class="bg-f6 footer">
+      <!-- back top -->
+      <div id="back-top"><i class="fas fa-arrow-up text-white"></i></div>
+      <!-- end back top -->
+      <!-- footer top -->
+      <section class="footer-top w-1140">
+        <!-- left -->
+        <div class="footer-top__left">
+          <!-- logo -->
+          <div class="footer-logo mb-20">
+            <a href="#" class="">
+              <img src="./images/logo.png" alt="" class="nav-header__logo nav-header__logo--footer">
+            </a>
+          </div>
+          <!-- end logo -->
+          <!-- text -->
+          <div class="footer-top__left-text text-gray-33 fs-14 font-secondary d-lg-block d-none">
+            <p class="line-26 fs-18"><span class="fw-700">© Bản quyền 2022 VOVOGT</span></p>
+            <p class="line-26">Cơ quan chủ quản: Kênh VOV Giao thông - Đài Tiếng nói Việt Nam</p>
+            <p class="line-26"> Chịu trách nhiệm nội dung: Giám đốc Trang Công Tiến</p>
+            <p class="line-26"> Số giấy phép: 03/GP-TTĐT do Bộ Thông tin và Truyền thông cấp ngày 05/01/2018</p>
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end left -->
+        <!-- right -->
+        <div class="footer-top__right font-secondary">
+          <!-- phone pc-->
+          <div class="top-header__phone fs-14 d-lg-flex align-items-center justify-content-end d-none">
+            <img src="./images/phone1.svg" alt="" class="mr-2">
+            <span>Hà Nội - <span class="fw-700">0123 123456678</span></span>&nbsp;&nbsp;&nbsp;
+            <span>TP HCM - <span class="fw-700">0123 123456678</span></span>&nbsp;&nbsp;&nbsp;
+            <span>Mekong - <span class="fw-700">0123 123456678</span></span>
+          </div>
+          <!-- end phone pc-->
+          <!-- phone mb-->
+          <div class="top-header__phone fs-14 d-lg-none align-items-center justify-content-center d-flex mt-2">
+            <img src="./images/phone1.svg" alt="" class="mr-15">
+            <div>
+              <span>Hà Nội - <span class="fw-700 d-inline-flex mb-2">0123 123456678</span></span><br>
+              <span>TP HCM - <span class="fw-700 d-inline-flex mb-2">0123 123456678</span></span><br>
+              <span>Mekong - <span class="fw-700">0123 123456678</span></span>
+            </div>
+          </div>
+          <!-- end phone mb-->
+          <!--  -->
+          <ul class="nav-header__right d-flex align-items-center justify-content-end mt-20">
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-fb">
+                <img src="./images/Facebook.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-twitter">
+                <img src="./images/Twitter.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-linker">
+                <img src="./images/Youtube.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item">
+              <a href="#" class="nav-header__right-link nav-header__right-gg">
+                <img src="./images/User.svg" alt="" class="nav-header__right-icon">
+              </a>
+            </li>
+            <li class="nav-header__right-item pl-20 d-lg-block d-none">
+              <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Liên hệ quảng cáo</a>
+              <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Thông tin tòa soạn</a>
+            </li>
+          </ul>
+          <div class="my-20 d-lg-none d-flex align-items-center justify-content-center">
+            <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Liên hệ quảng cáo</a>
+              <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 footer-link">Thông tin tòa soạn</a>
+          </div>
+          <!-- text -->
+          <div class="footer-top__left-text text-gray-33 fs-14 font-secondary d-lg-none d-block">
+            <p class="line-26"><span class="fw-700">© Bản quyền 2022 VOVGT</span></p>
+            <p class="line-26">Cơ quan chủ quản: Kênh VOV Giao thông - Đài Tiếng nói Việt Nam</p>
+            <p class="line-26"> Chịu trách nhiệm nội dung: Giám đốc Trang Công Tiến</p>
+            <p class="line-26"> Số giấy phép: 03/GP-TTĐT do Bộ Thông tin và Truyền thông cấp ngày 05/01/2018</p>
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end right -->
+      </section>
+      <!-- end footer top -->
+      <!-- footer bootom -->
+      <section class="footer-bottom bg-blue-28 py-15">
+        <div class="w-1140 text-lg-center text-gray-fc fs-14 font-secondary p-lg-0 px-15 text-left">
+          <p class="line-22">Địa chỉ: Tầng 10, 58 Quán Sứ, Hà Nội, Việt Nam</p>
+          <p class="line-22">Điện thoại: Hà Nội - 024 37 919191TP. HCM - 028 39 919191</p>
+          <p class="line-22">Email: daphuongtienvovgt@gmail.com</p>
+          <p class="line-22">Ghi rõ nguồn "VOV Giao thông" khi phát hành lại thông tin từ website này</p>
+        </div>
+      </section>
+      <!-- end footer bootom -->
+    </footer>
+    <!-- end footer -->
+    <script src="./slick/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./slick/slick-1.8.1/slick/slick.js"></script>
+    <script src="./font-awesome/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+    <script src="./js/ResizeSensor.js"></script>
+    <script src="./js/theia-sticky-sidebar.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
