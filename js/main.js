@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // width document
   var widthDoc = document.querySelector("body");
 
+  // dem so luong ky te de show hide
+  var characterCount1 = document.querySelector('.podcast-primary__des');
+  var characterCount2 = document.querySelector('.podcast-secondary__des');
+
   const app = {
     // su ly cac su kien
     handleEvent: function () {
@@ -49,6 +53,22 @@ document.addEventListener("DOMContentLoaded", function () {
           subMenu.classList.remove("active");
         };
       }
+
+      //  dem so luong ky te de show hide
+      if(characterCount1){
+        var characterText1 = characterCount1.innerText;
+        var characterExtend1 = characterCount1.parentElement.querySelector('.podcast-primary__extend');
+        if(characterText1.length > 210) {
+          characterCount1.innerText = characterText1.slice(0,210) + '...';
+          characterExtend1.style.display = 'inline-block';
+        }
+        characterExtend1.onclick = function(){
+          if(characterExtend1.innerText = 'Mở rộng '){
+            characterCount1.innerText = characterText1;
+            characterExtend1.style.display = 'none'
+          }
+        }
+      }
       // hide cac element khi click ra ngoai
       document.addEventListener("click", function (e) {});
     },
@@ -82,6 +102,24 @@ document.addEventListener("DOMContentLoaded", function () {
             breakpoint: 740,
             settings: {
               slidesToShow: 1.5,
+            },
+          },
+        ],
+      });
+    },
+    // slide podcast
+    slidePodcast: function () {
+      $(".podcast-secondary .field").slick({
+        infinite: false,
+        dots: false,
+        arrows: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 1,
             },
           },
         ],
@@ -136,6 +174,8 @@ document.addEventListener("DOMContentLoaded", function () {
       this.slideMutimedia();
       // slide event
       this.slideEvent();
+      // slide podcast
+      this.slidePodcast();
     },
   };
 

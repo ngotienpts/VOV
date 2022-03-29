@@ -1,0 +1,57 @@
+.podcast-primary {
+    padding: 1.875rem 0;
+}
+.podcast-primary .full-thumb {
+    margin-bottom: 0.625rem;
+}
+.podcast-primary .full-thumb__img {
+    flex-shrink: 0;
+    width: 27%;
+}
+.podcast-primary .full-thumb__content {
+    flex: 1;
+    padding-left: 1.875rem;
+}
+.extend{
+    cursor: pointer;
+    font-family:  "Helvetical Neue", sans-serif;
+}
+.podcast-primary .navbar-item + .navbar-item {
+    margin-left: 1.875rem;
+}
+.podcast-primary .navbar-item.active a{
+    color: #EF4035;
+    font-weight: bold;
+}
+.podcast-primary .control {
+    height: 100px;
+}
+.podcast-secondary .container .category{
+    margin-top: 2.5rem;
+    background: #F6F7FB;
+    padding-top: 0;
+}
+.podcast-secondary .field {
+}
+.podcast-secondary .field .item-img {
+    flex-shrink: 0;
+    width: 40%;
+}
+.podcast-secondary .field .item-content {
+    flex: 1;
+}
+.podcast__icon.size-40 {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.push-plus {
+    transform: translateY(-1rem);
+    -webkit-transform: translateY(-1rem);
+    -moz-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    -o-transform: translateY(-1rem);
+}
+.podcast-primary__extend{
+    display: none;
+}
