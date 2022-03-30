@@ -55,3 +55,31 @@
 .podcast-primary__extend{
     display: none;
 }
+.podcast-secondary .field .slick-prev.slick-disabled, .slick-next.slick-disabled {
+    opacity: 0;
+  }
+  .podcast-secondary .field .slick-prev {
+    left: -10px;
+    z-index: 10;
+  }
+  .podcast-secondary .field .slick-next {
+    right: -10px;
+  } 
+  .podcast-secondary .field .slick-prev,
+  .podcast-secondary .field .slick-next {
+    top: 40%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #fff;
+  }
+  .podcast-secondary .field .slick-slide {
+    margin: 10px;
+  }
+  .podcast-secondary .field .slick-next:before {
+    content: '\276F';
+    color: #C43000;
+  }
+  .podcast-secondary .field .slick-prev:before {
+    content: '\276E';
+    color: #C43000;
+  }

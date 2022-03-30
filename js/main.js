@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // dem so luong ky te de show hide
   var characterCount1 = document.querySelector('.podcast-primary__des');
-  var characterCount2 = document.querySelector('.podcast-secondary__des');
+  // var characterCount2 = document.querySelector('.podcast-secondary__des');
+
+  // var expNoEdits = document.querySelectorAll('.expNoEdit');
 
   const app = {
     // su ly cac su kien
@@ -68,6 +70,14 @@ document.addEventListener("DOMContentLoaded", function () {
             characterExtend1.style.display = 'none'
           }
         }
+      }
+      // 
+      if(widthDoc){
+        var expNoEditFull = document.querySelectorAll('.expNoEdit.full');
+        expNoEditFull.forEach(function(a){
+          a.style.width = widthDoc.clientWidth + 'px';
+          a.style.marginLeft = '-' + a.offsetLeft + 'px';
+        })
       }
       // hide cac element khi click ra ngoai
       document.addEventListener("click", function (e) {});

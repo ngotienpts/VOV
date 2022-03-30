@@ -447,7 +447,92 @@
   .care-detail {
     padding-top: 0;
   }
-  
+  // ==================================================================================podcast
+  .podcast-primary {
+    padding: 0.875rem 0 1rem;
+  }
+  .podcast-primary .full-thumb {
+    margin-bottom: 0;
+    padding: 0.625rem 0.9375rem;
+    display: block;
+  }
+  .podcast-primary .full-thumb__img {
+    width: 100%;
+  }
+  .podcast-primary .full-thumb__content {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .podcast-primary .control {
+    height: auto;
+  }
+  .podcast-secondary .field .item-content .heading{
+    font-size: 0.9375rem;
+    padding-bottom: 0.5rem;
+  }
+  .podcast-secondary .field .item-content .heading a{
+    line-height: 21px;
+  }
+  .podcast__icon.size-40 {
+    width: 1.875rem;
+    height: 1.875rem;
+    font-size: 0.75rem;
+  }
+  // ==================================================================================longform
+  .longform-primary__right {
+    margin-left: 0;
+  }
+  .longform-primary .public, 
+  .longform-primary p, 
+  .longform-primary h1, 
+  .longform-primary h2, 
+  .longform-primary h3, 
+  .longform-primary h4, 
+  .longform-primary h5, 
+  .longform-primary h6 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .longform-primary h2, 
+  .longform-primary h3, 
+  .longform-primary h4 {
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-bottom: 1rem;
+  }
+  .longform-primary .title {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-top: 1rem;
+  }
+  .longform-primary figure.expNoEdit.two img,
+  .longform-primary figure.expNoEdit.three img {
+    width: 100%;
+  }
+  .longform-primary figure.expNoEdit.two img:nth-child(2) {
+    margin-top: 5px;
+  }
+  .longform-primary figure.expNoEdit.three img:nth-child(2) {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .longform-primary figcaption {
+    margin: 0 15px 20px;
+  }
+  .longform-primary figcaption .expEdit {
+    font-size: 12px;
+    padding: 0;
+  }
+  .longform-primary figure.expNoEdit.right {
+    float: unset;
+    margin-left: 0 !important;
+    max-width: 100%;
+    text-align: left;
+  }
+  .longform-primary figure.expNoEdit.left {
+    max-width: 100%;
+    margin-right: 0 !important;
+  }
 }
 
 @media (max-width: 63.9375em) {
